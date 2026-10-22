@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-pearl: #F8F9FA;
+  --color-obsidian: #12181E;
+  --color-sage: #4A6B5D;
+  --color-sage-dark: #3a554a;
+  --color-sage-light: #F2F6F4;
+  --color-mint: #E0F2FE;
+  --color-gold: #D4AF37;
+}
+
+:root {
+  --font-serif-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-sans-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans-family);
+  background-color: #F8F9FA;
+  color: #12181E;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-serif, .font-display {
+  font-family: var(--font-serif-family);
+}
+
+.font-sans {
+  font-family: var(--font-sans-family);
+}
+
+/* Custom scrollbars and slider styling */
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: all;
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+}

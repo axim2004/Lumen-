@@ -1,0 +1,6 @@
+{
+  "name": "LUMEN Dermatology | Clinical Barrier Repair Skincare",
+  "description": "Luxury dermatologist-formulated barrier repair serum powered by 3% ceramides, niacinamide, and clinical lipid restoration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
